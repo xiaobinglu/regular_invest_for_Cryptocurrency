@@ -1,0 +1,26 @@
+{
+  "exchange_name": "okex",
+  "api_config": {
+    "apiKey": "xxx",
+    "secret": "xxx",
+    "password": "xxx"
+  },
+  "use_database": false,
+  "transaction_fee": 0.0018,
+  "assets_to_buy": [
+    {
+      "currency": "BTC",
+      "coin": "ETH",
+      "amount": 1,
+      "currency_has_yubibao": true,
+      "coin_has_yubibao": true
+    },
+    {
+      "currency": "BTC",
+      "coin": "BCH",
+      "amount": 3,
+      "currency_has_yubibao": true,
+      "coin_has_yubibao": true
+    }
+  ]
+}
