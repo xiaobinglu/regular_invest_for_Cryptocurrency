@@ -11,8 +11,9 @@ import pymysql
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 import sys
+from os import path
 
-sys.path.append("/home/regular_invest/")
+sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
 from trading_utils.trading_executor import *
 from trading_utils.send_email import *
 from statistics_model.orm_tables import *
